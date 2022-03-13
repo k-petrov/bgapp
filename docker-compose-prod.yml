@@ -5,7 +5,7 @@ services:
     ports:
       - 80:80
     volumes:
-      - "/home/vagrant/bgapp/web:/var/www/html:ro"
+      - "/home/jenkins/workspace/BGapp/web:/var/www/html:ro"
     networks:
       - app-network
     depends_on:
